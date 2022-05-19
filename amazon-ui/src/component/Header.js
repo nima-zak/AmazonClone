@@ -7,6 +7,7 @@ import Flags from "country-flag-icons/react/3x2";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import LocationOnTwoToneIcon from "@mui/icons-material/LocationOnTwoTone";
 
+
 function Header() {
   return (
     <nav className="header">
@@ -70,8 +71,11 @@ function Header() {
             <span>Cart</span>
           </div>
         </Link>
+        
+
       </div>
     </nav>
+    
   );
 }
 

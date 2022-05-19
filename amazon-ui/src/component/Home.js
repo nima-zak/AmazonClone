@@ -3,16 +3,19 @@ import { Link } from "react-router-dom";
 import Header from "./Header";
 import "./Home.css";
 import Product from "./Product";
+import MenuAppBar from "./MenuAppBar";
 function Home() {
   return (
     <div className="home">
       <Header />
+      <MenuAppBar />
       <Link to="/">
         <img
           className="home_image"
           src={require("../component/images/slideshow/AmazonSlide (1).jpg")}
         />
       </Link>
+      
       <Product
         id="1"
         title="Overstock deals in Outlet"
